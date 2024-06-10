@@ -106,7 +106,7 @@ const Section6 = () => {
                 // ml:"620px"
                 mt:'-60px',
                 position:"absolute",
-                right:{xs:0,sm:"10px" ,md:"50px",lg:'90px'}
+                right:{xs:0,sm:"10px" ,md:"60px",lg:'90px'}
               }}
             ></Typography>
           </Box>
