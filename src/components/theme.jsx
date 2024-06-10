@@ -29,6 +29,8 @@ const theme = createTheme({
       '"Apple Color Emoji"',
       '"Segoe UI Emoji"',
       '"Segoe UI Symbol"',
+      '"Montserrat"',
+      '"sans-serif"',
     ].join(","),
   },
   //   components:{
