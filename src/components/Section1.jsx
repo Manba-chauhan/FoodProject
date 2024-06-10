@@ -26,7 +26,7 @@ const Section1 = () => {
         <Box sx={{ px: { xs: 2, sm: 5, md: 20 }, pb: 25, pt: 2 }}>
           <Box
             sx={{
-              ml: { xs: 2, sm: 7, md: 50, lg:60},
+              ml: { xs: 2, sm: 7, md: 50, lg:70},
               mr: 2,
               // pr:{xs:4,sm:5,xl:10},
               lineClamp: 10,
