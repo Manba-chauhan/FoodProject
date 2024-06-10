@@ -33,7 +33,7 @@ const Section1 = () => {
               py: 2,
               mt: 4,
               letterSpacing: 2,
-              maxwidth: "100%",
+              // maxwidth: "100%",
               textAlign: "justify",
               //  float:"right"
             }}
