@@ -40,7 +40,8 @@ const Section1 = () => {
           >
             <Box
               sx={{
-                width: {xs:"100%",sm:"100%", md:"100%",xl:"60%"},
+                     // width: {xs:"100%",sm:"100%", md:"100%",xl:"60%"},
+                     width:"100%"
 
               }}
             >
