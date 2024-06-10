@@ -25,7 +25,16 @@ const Section1 = () => {
       >
         <Box sx={{ px: { xs: 2, sm: 5, md: 20 }, pb: 25, pt: 2 }}>
           <Box
-            sx={{ ml: { xs: 2, sm: 7, md: 20, lg: 70 ,xl:100 }, lineClamp: 10, p: 2,mt:4 }}
+            sx={{ 
+              ml: { xs: 2, sm: 7, md: 50, lg: 70 , xl:100,}, 
+              mr:2,
+              pr:{xs:4,sm:5,xl:10},
+              lineClamp: 10, py: 2,mt:4, 
+               letterSpacing:2,
+               width:{xs:"100%",sm:"80%",md:"58%",lg:"60%" ,xl:"48%"},
+               textAlign:"justify"
+              //  float:"right"
+             }}
           >
             <Typography
               variant="h1"
@@ -60,8 +69,8 @@ const Section1 = () => {
               sx={{
                 mt: 6,
                 bgcolor: "secondary.main",
-                px: 8,
-                py: 2,
+                px: 5,
+                py: 1.5,
                 color: "secondary.contrastText",
                 fontSize: "18px",
                 letterSpacing: 3,
