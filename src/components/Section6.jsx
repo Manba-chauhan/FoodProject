@@ -104,9 +104,9 @@ const Section6 = () => {
                 bgcolor: "#fff",
                 border: "14px solid #e0e5eb",
                 // ml:"620px"
-                mt:'-50px',
+                mt:'-60px',
                 position:"absolute",
-                right:{xs:0,sm:"10px" ,md:"10px"}
+                right:{xs:0,sm:"10px" ,md:"70px"}
               }}
             ></Typography>
           </Box>
