@@ -1,6 +1,12 @@
-import { Container, Typography,Box, Button, ThemeProvider } from '@mui/material';
-import React from 'react';
-import theme from './theme';
+import {
+  Container,
+  Typography,
+  Box,
+  Button,
+  ThemeProvider,
+} from "@mui/material";
+import React from "react";
+import theme from "./theme";
 
 const Section1 = () => {
   return (
@@ -19,13 +25,13 @@ const Section1 = () => {
       >
         <Box sx={{ px: { xs: 2, sm: 5, md: 20 }, pb: 25, pt: 2 }}>
           <Box
-            sx={{ ml: { xs: 2, sm: 7, md: 20, lg: 70 }, lineClamp: 10, p: 2 }}
+            sx={{ ml: { xs: 2, sm: 7, md: 20, lg: 70 ,xl:100 }, lineClamp: 10, p: 2,mt:4 }}
           >
             <Typography
               variant="h1"
               color="#fff"
               component="div"
-              sx={{ fontWeight: "bold" ,fontSize:{xs:'50px'} }}
+              sx={{ fontWeight: "bold", fontSize: { xs: "50px" } }}
             >
               health
             </Typography>
@@ -37,7 +43,13 @@ const Section1 = () => {
             >
               Time to Get Healthy & Active
             </Typography>
-            <Typography variant="p" color="#fff" component="div" sx={{ mt: 2 }}>
+            <Typography
+              variant="p"
+              color="#fff"
+              component={Box}
+              sx={{ mt: 2,  }}
+
+            >
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
               cupidatat non proident, sunt in culpa qui officia deserunt mollit
@@ -53,7 +65,7 @@ const Section1 = () => {
                 color: "secondary.contrastText",
                 fontSize: "18px",
                 letterSpacing: 3,
-                textWrap:'nowrap'
+                textWrap: "nowrap",
               }}
             >
               Read More
@@ -63,6 +75,6 @@ const Section1 = () => {
       </Box>
     </ThemeProvider>
   );
-}
+};
 
 export default Section1;
